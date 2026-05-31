@@ -1,0 +1,53 @@
+[gd_scene format=3 uid="uid://dajupjkapird7"]
+
+[ext_resource type="Script" uid="uid://1ystjyutxt7j" path="res://scripts/level_changer.gd" id="1_h4ixq"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_8k5hm"]
+shadow_color = Color(0.28297502, 0.28297502, 0.28297502, 1)
+
+[node name="Control" type="Control" unique_id=2107191348]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_h4ixq")
+
+[node name="TextureRect" type="ColorRect" parent="." unique_id=1499199833]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.37213346, 0.42555314, 0.32819554, 1)
+
+[node name="CenterContainer" type="CenterContainer" parent="TextureRect" unique_id=1467922829]
+texture_filter = 1
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.37500003
+anchor_top = 0.37500003
+anchor_right = 0.625
+anchor_bottom = 0.625
+offset_left = -3.0517578e-05
+offset_top = -3.0517578e-05
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="GridContainer" type="GridContainer" parent="TextureRect/CenterContainer" unique_id=500933]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="TextureRect/CenterContainer/GridContainer" unique_id=1477763499]
+layout_mode = 2
+text = "Select Level"
+label_settings = SubResource("LabelSettings_8k5hm")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Button" type="Button" parent="TextureRect/CenterContainer/GridContainer" unique_id=2023795057]
+layout_mode = 2
+text = "Уровень 1"
+
+[connection signal="pressed" from="TextureRect/CenterContainer/GridContainer/Button" to="." method="_on_button_pressed"]

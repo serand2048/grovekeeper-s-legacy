@@ -1,0 +1,9 @@
+res://scenes/player.tscn
+res://scripts/player.gd
+res://scenes/map.tscn
+res://scripts/to_outside.gd
+res://scripts/home.gd
+res://scenes/home.tscn
+res://scripts/map.gd
+res://scenes/menu.tscn
+res://scripts/menu.gd

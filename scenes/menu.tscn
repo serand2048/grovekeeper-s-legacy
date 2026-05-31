@@ -1,0 +1,61 @@
+[gd_scene format=3 uid="uid://cs4k8ag5m1n7y"]
+
+[ext_resource type="Script" uid="uid://b5rqeqp2y2vmq" path="res://scripts/menu.gd" id="1_yqeox"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_vjb58"]
+font_size = 22
+
+[node name="Control" type="Control" unique_id=2133836968]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -1152.0
+offset_bottom = -648.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_yqeox")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=322554880]
+layout_mode = 0
+offset_right = 1149.0
+offset_bottom = 645.0
+
+[node name="ColorRect2" type="ColorRect" parent="." unique_id=1637216641]
+layout_mode = 0
+offset_left = 1.0
+offset_top = -1.0
+offset_right = 555.0
+offset_bottom = 643.0
+color = Color(0.06549864, 0.6947092, 0.75057256, 1)
+
+[node name="Label" type="Label" parent="." unique_id=1348164635]
+layout_mode = 0
+offset_left = 3.0
+offset_top = 2.0
+offset_right = 554.0
+offset_bottom = 77.0
+text = "Grovekeepers Legacy"
+label_settings = SubResource("LabelSettings_vjb58")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Button2" type="Button" parent="." unique_id=1046762483]
+layout_mode = 0
+offset_left = 179.0
+offset_top = 216.0
+offset_right = 401.0
+offset_bottom = 278.0
+text = "Выход"
+
+[node name="Button" type="Button" parent="." unique_id=1874089754]
+layout_mode = 0
+offset_left = 179.0
+offset_top = 106.0
+offset_right = 397.0
+offset_bottom = 167.0
+text = "Старт"
+
+[connection signal="resized" from="." to="." method="_on_resized"]
+[connection signal="pressed" from="Button2" to="." method="_on_button_2_pressed"]
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
