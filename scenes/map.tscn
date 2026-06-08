@@ -609,4 +609,12 @@ position = Vector2(816, 327)
 position = Vector2(0, -2)
 shape = SubResource("RectangleShape2D_be0no")
 
+[node name="Area2D2" type="Area2D" parent="." unique_id=1800690620]
+position = Vector2(1201, 343)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D2" unique_id=589019507]
+position = Vector2(0, -2)
+shape = SubResource("RectangleShape2D_be0no")
+
 [connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="Area2D2" to="." method="_on_area_2d_2_body_entered"]

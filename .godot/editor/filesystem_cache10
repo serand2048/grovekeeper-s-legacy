@@ -1,5 +1,6 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1779009909
+::res://::1780938183
+export_presets.cfg::TextFile::-1::1780932622::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D::1940694338502000651::1776250578::1776250578::1::::<><><>0<>0<>4fd7c1c4ce54074f3e0883ce972ee88d<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 ::res://graphics/::1779011257
 door.png::CompressedTexture2D::3299049995751707604::1776250580::1776250580::1::::<><><>0<>0<>efecff44dd740354dc66f59998056a83<>res://.godot/imported/door.png-0518b09ce86396809a8b60ae97612b65.ctex::
@@ -16,21 +17,21 @@ alex_down.png::CompressedTexture2D::1516671020566193600::1776250580::1779006499:
 alex_left.png::CompressedTexture2D::1115551745556142393::1779006595::1779006598::1::::<><><>0<>0<>649245b6d8e24c0f59749128e15ad86d<>res://.godot/imported/alex_left.png-5df9a366ed64576253c7b82f54d4ba0b.ctex::
 alex_right.png::CompressedTexture2D::6551299542478326386::1779006558::1779006598::1::::<><><>0<>0<>6954f200617716e70a987243399474ba<>res://.godot/imported/alex_right.png-87d2b74b9f8970162593c3099dbc16ba.ctex::
 alex_up.png::CompressedTexture2D::2035766618106711162::1779006577::1779006598::1::::<><><>0<>0<>1b77e65660f8975617a7c8fc90329c78<>res://.godot/imported/alex_up.png-86e56f8a04919913f032a5a858cef190.ctex::
-::res://music/::1779011825
+::res://music/::1779011826
 1145755_Moonlit-Lullaby.mp3::AudioStreamMP3::8400916761825629962::1658380431::1779007949::1::::<><><>0<>0<>9fa95a1dc268b1f06dc9f25fe45b7f5d<>res://.godot/imported/1145755_Moonlit-Lullaby.mp3-b93371751c89b9a23aee88ee1cf9efc2.mp3str::
 radio.ogg::AudioStreamOggVorbis::8139511401132451798::1779011795::1779011826::1::::<><><>0<>0<>a350b1fa1e81888ea10bddaba28f2a69<>res://.godot/imported/radio.ogg-f95545cf7b3dd719930247828d0673bd.oggvorbisstr::
 ::res://resources/::1779008001
 new_tile_set.tres::TileSet::3531028964197236664::1779008001::0::1::::<><><>0<>0<><>::uid://6ci1dkshc8nr::::res://graphics/Textures-16.png
-::res://scenes/::1779011251
+::res://scenes/::1779012095
+home.tscn::PackedScene::4583113278799608929::1779012095::0::1::::<><><>0<>0<><>::uid://bqkpscaluapr1::::res://resources/new_tile_set.tres<>uid://gn8x2bg2y2pj::::res://scripts/home.gd<>uid://brvtu550jnnp7::::res://graphics/TopDownHouse_DoorsAndWindows.png<>uid://hi6yaxqk2sh5::::res://graphics/TopDownHouse_FurnitureState1.png<>uid://4ftcjyeixv5n::::res://scenes/player.tscn<>uid://bc3ouwnoshfqc::::res://graphics/speaker.png<>uid://dn73tfq6d1i7w::::res://music/radio.ogg
 level_changer.tscn::PackedScene::7179083065808318586::1776250580::0::1::::<><><>0<>0<><>::uid://1ystjyutxt7j::::res://scripts/level_changer.gd
 map.tscn::PackedScene::5328607944291429766::1779010046::0::1::::<><><>0<>0<><>::uid://domsyscoo7i12::::res://scripts/map.gd<>uid://bqkpscaluapr1::::res://resources/new_tile_set.tres<>uid://bnac4vm2aqqye::::res://graphics/door.png<>uid://4ftcjyeixv5n::::res://scenes/player.tscn<>uid://hw6sbvf5euel::::res://graphics/PC _ Computer - Stardew Valley - Environment - Crops.png<>uid://drxp4vwowc8gk::::res://music/1145755_Moonlit-Lullaby.mp3<>uid://d0lialnlosxgo::::res://graphics/ng_RTAG.png<>uid://c3jhgr40438w6::::res://graphics/tags_laseville_grove.png
 menu.tscn::PackedScene::6096773619514008028::1779009911::0::1::::<><><>0<>0<><>::uid://b5rqeqp2y2vmq::::res://scripts/menu.gd
 player.tscn::PackedScene::2046956058702429589::1779006678::0::1::::<><><>0<>0<><>::uid://dosaw8rlmmflo::::res://scripts/player.gd<>uid://vuxl50enaf2g::::res://graphics/player/alex_down.png<>uid://p5m8eiruvmd2::::res://graphics/player/alex_left.png<>uid://c0lq7f6xfbl3w::::res://graphics/player/alex_right.png<>uid://4ae1qi2yh7r7::::res://graphics/player/alex_up.png
-home.tscn::PackedScene::4583113278799608929::1779011251::0::1::::<><><>0<>0<><>::uid://bqkpscaluapr1::::res://resources/new_tile_set.tres<>uid://gn8x2bg2y2pj::::res://scripts/home.gd<>uid://brvtu550jnnp7::::res://graphics/TopDownHouse_DoorsAndWindows.png<>uid://hi6yaxqk2sh5::::res://graphics/TopDownHouse_FurnitureState1.png<>uid://4ftcjyeixv5n::::res://scenes/player.tscn
 ::res://scripts/::1779009696
+home.gd::GDScript::450016126637004259::1779009414::0::1::::<>Node2D<><>0<>0<><>::
 level_changer.gd::GDScript::1875582347360749181::1776250580::0::1::::<>Control<><>0<>0<><>::
+map.gd::GDScript::8167815109149971663::1779009403::0::1::::<>Node2D<><>0<>0<><>::
 menu.gd::GDScript::4528159894518554740::1779009696::0::1::::<>Control<><>0<>0<><>::
 player.gd::GDScript::8179105709099273560::1779006640::0::1::::<>CharacterBody2D<><>0<>0<><>::
-home.gd::GDScript::450016126637004259::1779009414::0::1::::<>Node2D<><>0<>0<><>::
-map.gd::GDScript::8167815109149971663::1779009403::0::1::::<>Node2D<><>0<>0<><>::
 ::res://sounds/::1775578974

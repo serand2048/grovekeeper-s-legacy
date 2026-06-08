@@ -1,9 +1,5 @@
-res://scenes/player.tscn
-res://scripts/player.gd
 res://scenes/map.tscn
-res://scripts/to_outside.gd
-res://scripts/home.gd
-res://scenes/home.tscn
+res://resources/new_tile_set.tres
 res://scripts/map.gd
-res://scenes/menu.tscn
-res://scripts/menu.gd
+res://scenes/bar.tscn
+res://scripts/bar.gd
